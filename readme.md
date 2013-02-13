@@ -16,7 +16,7 @@ Clone the distribution config to a local config file
 	cp app/config/config.php.dist app/config/config.php
 
 
-Edit the $udacityUser variable in src/config.php to use your username and password
+Edit the $udacityUser variable in app/config/config.php to use your username and password
 
 
 ## Operation
@@ -43,8 +43,10 @@ We can submit a solution for Unit2 using the following command
 result in previously submitted solutions being reset***
 
 
-Note that this script is largely a hack, and hasn't been tested thoroughly nor written
+Note that this script is largely a hack, and hasn't been tested thoroughly or written
 particularly tidily.
 
 
-If you have improvements, send me a pull request :)
+If you want to improve this, send me a pull request :)
+
+If you have a suggestion or request, poke me on my blog: http://tobias.wooldridge.id.au/blog/2013/submit-to-udacity-from-your-commandline
